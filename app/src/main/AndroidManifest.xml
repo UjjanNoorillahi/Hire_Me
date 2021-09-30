@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hire_me_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hire_Me_App">
+        <activity
+            android:name=".activity_learn"
+            android:exported="true" />
+        <activity
+            android:name=".activity_find_job"
+            android:exported="true" />
+        <activity
+            android:name=".activity_attempt_test"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_task_done"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_login"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_signUP"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_communication"
+            android:exported="true" />
+        <activity
+            android:name=".activity_chat"
+            android:exported="true" />
+        <activity
+            android:name=".activity_home"
+            android:exported="true" />
+        <activity
+            android:name=".activity_edit_company_profile"
+            android:exported="true" />
+        <activity
+            android:name=".activity_user_profile"
+            android:exported="true" />
+        <activity
+            android:name=".activity_login_options"
+            android:exported="true" />
+        <activity
+            android:name=".activity_compnay_sign_up"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_company_login"
+            android:exported="true" />
+        <activity
+            android:name=".activity_dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".activity_welcome"
+            android:noHistory="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

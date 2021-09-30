@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login_options">
+
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="415dp"
+        android:layout_height="123dp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="147dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toTopOf="@+id/curveView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topView"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <View
+        android:id="@+id/curveView"
+        android:layout_width="427dp"
+        android:layout_height="55dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Welcome to Hire Me "
+        android:textColor="@color/background"
+        android:textSize="24dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curveView" />
+
+    <Button
+        android:id="@+id/btnUserLogin"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/round_border"
+        android:text="User Login"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnCompanyLogin"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/round_border"
+        android:text="Company Login"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUserLogin" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="OR"
+
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCompanyLogin" />
+
+    <TextView
+        android:id="@+id/dont_have_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="32dp"
+        android:text="Don't have an Account?"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/user_signUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/user_signUp"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="4dp"
+        android:text="User Sign Up
+"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/company_signUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/company_signUp"
+        android:layout_width="121dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="88dp"
+        android:text=" Company Sign Up"
+        android:textColor="@color/background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
